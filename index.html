@@ -1,103 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./slideshow.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./slideshow.css" />
     <script src="./index.js"></script>
     <title>Membrane Touch</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main-content">
-
       <nav class="navbar navbar-expand-md">
-          <a class="navbar-brand" href="./index.html">
-              <img class="logo" src="./images/mtouchlogo.jpg" alt="logo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <img src="./images/icons8-menu.svg" alt="menu" style="height:25px;">
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact us</a>
-              </li>    
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
-              </li>    
-              <li class="nav-item">
-                <a class="nav-link" href="./ourservices.html">Our Services</a>
-              </li>    
-            </ul>
-          </div>  
-        </nav>
-        
+        <a class="navbar-brand" href="./index.html">
+          <img class="logo" src="./images/mtouchlogo.jpg" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <img src="./images/icons8-menu.svg" alt="menu" style="height: 25px" />
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ourservices.html">Our Services</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <div class="header-banner">
-          <video autoplay loop muted preload="auto">
-              <source src="./images/new_video.mp4" type="video/mp4">
-          </video>
-          <div class="header-banner-content">
-              <h1>Membrane Touch</h1>
-          </div>
+        <video autoplay loop muted preload="auto">
+          <source src="./images/new_video.mp4" type="video/mp4" />
+        </video>
+        <div class="header-banner-content">
+          <h1>Membrane Touch</h1>
+        </div>
       </div>
-      
-      <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides my-fade">
-          <div class="numbertext">1 / 6</div>
-          <img src="./images/aboutus-banner.jpg" style="width:100%">
-          <!-- <div class="text">Caption Text</div> -->
+      <div class="products-container">
+        <div class="sub-heading">
+          <h3>Our Products</h3>
         </div>
-      
-        <div class="mySlides my-fade">
-          <div class="numbertext">2 / 6</div>
-          <img src="./images/contactus.jpg" style="width:100%">
-          <!-- <div class="text">Caption Two</div> -->
-        </div>
-      
-        <div class="mySlides my-fade">
-          <div class="numbertext">3 / 6</div>
-          <img src="./images/front-panel-keyboard.jpg" style="width:100%">
-          <!-- <div class="text">Caption Three</div> -->
-        </div>
-
-        <div class="mySlides my-fade">
-          <div class="numbertext">4 / 6</div>
-          <img src="./images/dice.jpg" style="width:100%">
-          <!-- <div class="text">Caption Three</div> -->
-        </div>
-
-        <div class="mySlides my-fade">
-            <div class="numbertext">5 / 6</div>
-            <img src="./images/lock.jpg" style="width:100%">
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides my-fade">
+            <img src="./images/aboutus-banner.jpg" style="width: 100%" />
             <!-- <div class="text">Caption Text</div> -->
-        </div>
+          </div>
 
-        <div class="mySlides my-fade">
-            <div class="numbertext">6 / 6</div>
-            <img src="./images/mouse.jpg" style="width:100%">
+          <div class="mySlides my-fade">
+            <img src="./images/contactus.jpg" style="width: 100%" />
             <!-- <div class="text">Caption Two</div> -->
+          </div>
+
+          <div class="mySlides my-fade">
+            <img src="./images/front-panel-keyboard.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+
+          <div class="mySlides my-fade">
+            <img src="./images/dice.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Three</div> -->
+          </div>
+
+          <div class="mySlides my-fade">
+            <img src="./images/lock.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Text</div> -->
+          </div>
+
+          <div class="mySlides my-fade">
+            <img src="./images/mouse.jpg" style="width: 100%" />
+            <!-- <div class="text">Caption Two</div> -->
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-3)">&#10094;</a>
+          <a class="next" onclick="plusSlides(3)">&#10095;</a>
         </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-3)">&#10094;</a>
-        <a class="next" onclick="plusSlides(3)">&#10095;</a>
+        <br />
       </div>
-      <br>
-
-    </div>  
-    
-
-  
-</body>
+    </div>
+  </body>
 </html>
