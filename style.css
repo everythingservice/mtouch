@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+}
 
 a {
   text-decoration: none;
@@ -80,94 +83,88 @@ nav {
   z-index: 0;
 }
 
-/* .products{
-    position: relative;
-    color: white;
-    background-color: #020202;
-    z-index: 2000;
-    overflow: hidden;
-}
-
-.product img{
-    margin: auto;
-    margin-top: 10px;
-    width: 250px;
-    height: 400px;
-} */
 .products-container {
   background-color: #020202;
 }
 
-.about-banner {
-  /* background-color: black; */
-  /* opacity: 0.7;     */
-  background-image: url("./images/aboutus-banner.jpg");
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.our-customers-container {
+  width: 100%;
+  /* height: 60vh; */
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
 }
-
-.about-banner-content {
+.our-customers {
+  padding: 25px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40vh 40vw;
-  color: #fefefe;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.our-customer-img {
+  margin: 15px;
+}
+/* footer  */
+footer {
+  background-color: #020202;
+  padding: 15px;
+  color: #f3efef;
 }
 
-.about-details {
-  width: 100vw;
+.mtouch-footer-details img {
+  height: 60px;
 }
-
-.about-details-1 {
-  margin: 10px;
-  width: 100vw;
+.footer-logo {
   display: flex;
 }
-
-.about-details-1 img {
-  height: 250px;
-  width: 250px;
+.footer-logo h1 {
+  color: #f3efef;
+  margin-left: 5px;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 60px;
 }
 
-.about-details-1 p {
+.footer-description {
+  text-align: left;
+  color: #f3efef;
+}
+
+.footer-description span {
+  color: rgb(37, 187, 247);
+}
+
+.footer-navigation ul {
+  padding: 0;
+  font-weight: 600;
+}
+.footer-navigation li {
+  font-weight: 100;
+}
+.site-credits {
   padding: 10px;
-  font-size: 20px;
+}
+.site-credits p {
+  text-align: center;
+  /* font-weight: 200; */
 }
 
-.why-banner {
-  background-image: url("./images/ourservice-banner.jpg");
-  height: 100vh;
-  width: 100vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+.site-credits span {
+  font-weight: 200;
+  color: rgb(37, 187, 247);
 }
 
-.why-banner-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40vh 40vw;
-  color: white;
-  text-shadow: 2px 2px #858585;
-}
-
-.contact-banner {
-  background-image: url("./images/contactus.jpg");
-  height: 80vh;
-  width: 100vw;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-.contact-banner-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30vh 40vw;
-  color: white;
-  text-shadow: 2px 2px #858585;
-}
+@media only screen and (min-width: 500px) {
+  footer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: 60vh;
+  }
+  .mtouch-footer-details {
+    width: 500px;
+  }
+  .mtouch-footer-details,
+  .social-links,
+  .footer-navigation {
+    padding-left: 30px;
+  }
+} ;

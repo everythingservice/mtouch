@@ -1,0 +1,17 @@
+.contact-banner {
+  background-image: url("./images/contactus.jpg");
+  height: 80vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-banner-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30vh 40vw;
+  color: white;
+  text-shadow: 2px 2px #858585;
+}
