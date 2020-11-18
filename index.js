@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
       for (let i of slides) {
         i.style.display = "none";
       }
-      console.log("All none done");
+      // console.log("All none done");
       for (let i = 0; i <= 2; i++) {
         slides[i].style.display = "block";
       }

@@ -1,3 +1,6 @@
+* {
+  font-family: "Dosis", sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
@@ -126,6 +129,7 @@ footer {
 .footer-description {
   text-align: left;
   color: #f3efef;
+  font-weight: 100;
 }
 
 .footer-description span {
@@ -139,8 +143,12 @@ footer {
 .footer-navigation li {
   font-weight: 100;
 }
+.footer-navigation li a {
+  font-size: 16px;
+}
 .site-credits {
   padding: 10px;
+  font-size: 14px;
 }
 .site-credits p {
   text-align: center;
@@ -157,7 +165,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
-    height: 60vh;
+    height: 50vh;
   }
   .mtouch-footer-details {
     width: 500px;
@@ -165,6 +173,6 @@ footer {
   .mtouch-footer-details,
   .social-links,
   .footer-navigation {
-    padding-left: 30px;
+    padding: 30px;
   }
 } ;
