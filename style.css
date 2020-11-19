@@ -92,7 +92,6 @@ nav {
 
 .our-customers-container {
   width: 100%;
-  /* height: 60vh; */
   background-color: rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
@@ -146,13 +145,33 @@ footer {
 .footer-navigation li a {
   font-size: 16px;
 }
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+.social-media img {
+  height: 40px;
+}
+.social-media-list {
+  display: flex;
+  padding: 0;
+  margin-top: 10px;
+}
+.social-media-list li {
+  margin-right: 5px;
+}
+
 .site-credits {
   padding: 10px;
   font-size: 14px;
 }
 .site-credits p {
-  text-align: center;
+  /* text-align: center; */
   /* font-weight: 200; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .site-credits span {
@@ -165,7 +184,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
-    height: 50vh;
+    height: 45vh;
   }
   .mtouch-footer-details {
     width: 500px;
