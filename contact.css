@@ -15,3 +15,17 @@
   color: white;
   text-shadow: 2px 2px #858585;
 }
+
+.main-contact-details {
+  padding: 20px;
+}
+
+.my-contacts {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.contact-details {
+  flex-grow: 1;
+  text-align: center;
+}

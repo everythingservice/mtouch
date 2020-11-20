@@ -17,12 +17,13 @@
 }
 
 .about-details {
-  width: 100vw;
+  width: 80vw;
+  text-align: center;
 }
 
 .about-details-1 {
   margin: 10px;
-  width: 100vw;
+  /* width: 100vw; */
   display: flex;
 }
 

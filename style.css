@@ -104,6 +104,10 @@ nav {
 .our-customer-img {
   margin: 15px;
 }
+.our-customer-img img {
+  height: 150px;
+  width: 300px;
+}
 /* footer  */
 footer {
   background-color: #020202;
