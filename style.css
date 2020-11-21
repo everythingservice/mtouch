@@ -1,5 +1,6 @@
 * {
   font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
 }
 body {
   margin: 0;
@@ -18,6 +19,7 @@ a:hover {
   color: #fefefe;
 }
 nav {
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 25;
 }
