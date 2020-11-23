@@ -11,9 +11,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30vh 40vw;
+  padding: 40vh 40vw;
   color: white;
+  position: absolute;
+  top: 0;
+  z-index: 20;
   text-shadow: 2px 2px #858585;
+  text-align: center;
 }
 
 .main-contact-details {
