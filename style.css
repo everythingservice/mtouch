@@ -92,6 +92,26 @@ nav {
   background-color: #020202;
 }
 
+.content {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 300px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.why-choose-us-title {
+  width: 200px;
+  margin: 10px auto;
+  padding: 15px 0;
+  font-weight: 900;
+}
+
+.content img {
+  height: 64px;
+  margin: 10px;
+}
+
 .our-customers-container {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
@@ -199,5 +219,9 @@ footer {
   .social-links,
   .footer-navigation {
     padding: 30px;
+  }
+  .why-choose-us-content {
+    display: flex;
+    flex-direction: row;
   }
 } ;

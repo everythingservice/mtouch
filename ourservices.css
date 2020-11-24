@@ -19,3 +19,11 @@
   color: white;
   text-shadow: 5px 5px 10px #0f0f0f;
 }
+.our-service-element {
+  display: flex;
+}
+
+.our-service-element img {
+  /* height: 400px; */
+  width: 200px;
+}
